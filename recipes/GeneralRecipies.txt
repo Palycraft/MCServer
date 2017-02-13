@@ -64,3 +64,20 @@ CRAFT Gravel
 = 13
   @name &8Crushed Rock
   @lore &bT2 Material
+
+CRAFT Cobblestone
+@ingredientcondition 77 | lore &bT2 Material | name &8Crushed Rock
+13 + 13
+13 + 13
+= 4
+  @name &8Cobblestone
+  @lore &cT3 Material
+  @lore &bT2 Building Material
+
+SMELT Stone
+@ingredientcondition 4 | lore &cT3 Material | lore &bT2 Building Material | name &8Cobblestone
+4
+= 1
+  @name &8Stone
+  @lore &dT4 Material
+  @lore &cT3 Building Material
