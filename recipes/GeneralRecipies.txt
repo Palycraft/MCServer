@@ -39,3 +39,5 @@ CRAFT Log Block
 = 17
   @lore &aT2 Building Material
   @name &6Log Wall
+  
+  Testing
