@@ -37,5 +37,30 @@ CRAFT Log Block
 5 + 5
 5 + 5
 = 17
-  @lore &aT2 Building Material
+  @lore &bT2 Building Material
   @name &6Log Wall
+
+
+CRAFT Workbench
+@ingredientcondition 5 | lore &aT1 Building Material | name &6Wood Wall
+@ingredientcondition 17 | lore &bT2 Building Material | name &6Log Wall
+5 + 5 + 5
+17 + air + 17
+= 58
+  @lore &aT2 Building Material
+  @name &6Workbench
+
+CRAFT Pebble
+166 + 166
+= 77
+  @name &8Pebble
+  @lore &aT1 Material
+
+CRAFT Gravel
+@ingredientcondition 77 | lore &aT1 Material | name &8Pebble
+77 + 77 + 77
+77 + 77 + 77
+77 + 77 + 77
+= 13
+  @name &8Crushed Rock
+  @lore &bT2 Material
