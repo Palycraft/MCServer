@@ -1,2 +1,2 @@
-# MCServer
-Files for MC server
+# USE /master/recipies ONLY
+Please do not use the Subsection "resources" for editing recipies!
